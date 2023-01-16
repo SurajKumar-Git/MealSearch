@@ -23,7 +23,7 @@ function createAndAppendFavouriteMealNode(meal) {
       </div>
       <div class="col-md-8">
         <div class="card-body">
-          <h5 class="card-title"><a class="link" href="/meal.html?i=${meal.idMeal}">${meal.strMeal}</a></h5>
+          <h5 class="card-title"><a class="link" href="./meal.html?i=${meal.idMeal}">${meal.strMeal}</a></h5>
           <p class="card-text">Category: <small class="text-secondary">${meal.strCategory}</small><br>
           Cuisine: <small class="text-secondary">${meal.strArea}</small></p>
           <p class="card-text"><a data-meal-id="${meal.idMeal}" class="text-muted link remove-favourite"><i class="fa-solid fa-heart"></i> Remove from Favourites</a></p>

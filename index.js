@@ -35,7 +35,7 @@ async function updateMealsResultInDOM(meals) {
     </div>
       <div class="col-md-8">
         <div class="card-body">
-          <h5 class="card-title"><a class="link" href="/meal.html?i=${
+          <h5 class="card-title"><a class="link" href="./meal.html?i=${
             meal.idMeal
           }">${meal.strMeal}</a></h5>
           <p class="card-text">Category: <small class="text-secondary">${
