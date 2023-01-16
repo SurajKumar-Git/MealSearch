@@ -1,0 +1,57 @@
+.add-remove-favourite i,
+.remove-favourite i {
+  color: red;
+}
+
+.tags span {
+  margin-right: 0.8rem;
+  padding: 0.4rem 0.8rem;
+}
+
+.meal-thumbnail {
+  width: 100%;
+  position: relative;
+}
+
+.meal-thumbnail:hover img {
+  opacity: 0.5;
+}
+
+.meal-thumbnail:hover .middle {
+  opacity: 1;
+}
+
+.middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Utilites */
+.link {
+  text-decoration: none;
+  cursor: pointer;
+  color: inherit;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+@media (min-width: 576px) {
+  .meal-thumbnail {
+    width: 50%;
+  }
+}
+
+@media (min-width: 768px) {
+  /* Update bootstrap default width */
+  .w-100 {
+    width: 75% !important;
+  }
+}
